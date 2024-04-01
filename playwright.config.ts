@@ -1,13 +1,14 @@
-import type { PlaywrightTestConfig } from '@playwright/test';
+import { testPlanFilter } from "allure-playwright/dist/testplan";
 
-const config: PlaywrightTestConfig = {
+const config: defineConfig = {
   testDir: './tests',
   timeout: 30 * 1000,
   expect: {
     timeout: 5000
   },
 
-  reporter: 'html',
+   grep: testPlanFilter(),
+   reporter: [["line"], ["allure-playwright"]],
 
   use: {
     actionTimeout: 0,
