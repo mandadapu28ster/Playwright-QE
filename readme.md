@@ -7,7 +7,7 @@ Follow below steps to run after downloading complete folder 'Playwright-QE'
 5. Once execution complete, run `npx allure serve allure-results` to see report
 6. Step 5 will open beautiful allure report on system browser and load report with each step status, execution time along with beautiful status graphs. sample reports added below
 
-![Screenshot](https://github.com/mandadapu28ster/Playwright-QE/tree/main/resources/Screenshot1.png)
+![Screenshot1.png](resources%2FScreenshot1.png)
 ![Screenshot2.png](resources%2FScreenshot2.png)
 
 ### Improvements
