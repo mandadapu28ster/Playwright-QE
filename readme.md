@@ -5,7 +5,10 @@ Follow below steps to run after downloading complete folder 'Playwright-QE'
 3. Once above command complete installation of required modules run `npx playwright test --headed`
 4. Now we will tests are executing on Chromium browser (default)
 5. Once execution complete, run `npx allure serve allure-results` to see report
-6. Step 5 will open beautiful allure report on system browser and load report with each step status, execution time along with beautiful status graphs.
+6. Step 5 will open beautiful allure report on system browser and load report with each step status, execution time along with beautiful status graphs. sample reports added below
+
+![Screenshot](https://github.com/mandadapu28ster/Playwright-QE/tree/main/resources/Screenshot1.png)
+![Screenshot2.png](resources%2FScreenshot2.png)
 
 ### Improvements
 1. We can added customised reposting like Allure reporting, which will enhance reporting further
